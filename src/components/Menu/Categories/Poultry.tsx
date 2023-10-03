@@ -1,20 +1,24 @@
 import MenuItemCard from "../MenuItemCard/MenuItemCard";
-import menuFish from "../../../data/menuFish";
+import menuPoultry from "../../../data/menuPoultry";
 import { useNavigate } from "react-router-dom";
 import { useIntl } from "react-intl";
+import "./Categories.scss";
 
-const Fish: React.FC = () => {
+const Poultry: React.FC = () => {
   const intl = useIntl();
   const navigate = useNavigate();
 
   return (
     <div className="category">
-      <button onClick={() => navigate(-1)}>Back to Menu</button>
-      <h2>{intl.formatMessage({ id: "menu.category.fish" })}</h2>
-      {menuFish.map((item) => (
+      <button onClick={() => navigate(-1)} className="category__btn--back">
+        Back to Menu
+      </button>
+      <h2 className="category__header">{intl.formatMessage({ id: "menu.category.poultry" })}</h2>
+      {menuPoultry.map((item) => (
         <MenuItemCard
           key={item.name}
           item={{
+            id: item.id,
             photo: item.photo,
             name: item.name,
             description: item.description,
@@ -27,4 +31,4 @@ const Fish: React.FC = () => {
   );
 };
 
-export default Fish;
+export default Poultry;

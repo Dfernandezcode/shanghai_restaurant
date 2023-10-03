@@ -1,5 +1,17 @@
 {
-  "hello.world": "Halo, dunia!",
+  "nav.home": "Home",
+  "nav.about": "Tentang",
+  "nav.menu": "Menu",
+  "nav.contact": "Kontak",
+  "nav.gallery": "Galeri",
+  "home.opening.hours": "Jam Buka",
   "menu.title": "Menu Kami",
-  "menu.item.price": "Harga"
+  "menu.item.price": "Harga",
+  "menu.category.fish": "Ikan",
+  "menu.category.poultry": "Ayam",
+  "menu.category.beef": "Sapi",
+  "menu.item21.name": "Satay Ayam",
+  "menu.item21.desc": "Nikmati Sate Ayam terkenal kami, favorit di antara para pelanggan. Setiap tusuk sate adalah melodi rasa, menampilkan ayam lembut yang dimarinasi dalam campuran bumbu unik dan dipanggang hingga keemasan.",
+  "menu.item22.name": "Ayam Lemon",
+  "menu.item22.desc": "Nikmati rasa dari Ayam Lemon Cina kami, perpaduan antara ayam goreng yang renyah dan saus lemon yang segar dan manis. Setiap gigitan menjanjikan semburan rasa yang hangat dan asam, menampilkan harmoni seni kuliner Cina yang otentik."
 }

@@ -1,5 +1,17 @@
 {
-  "hello.world": "Hello, world",
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.menu": "Menu",
+  "nav.contact": "Contact",
+  "nav.gallery": "Gallery",
+  "home.opening.hours": "Opening Hours",
   "menu.title": "Our Menu",
-  "menu.item.price": "Price"
+  "menu.item.price": "Price",
+  "menu.category.fish": "Fish",
+  "menu.category.poultry": "Chicken",
+  "menu.category.beef": "Beef",
+  "menu.item21.name": "Chicken Satay Skewers",
+  "menu.item21.desc": "Indulge in our renowned Glazed Satay Chicken Skewers, a favourite among patrons. Each skewer is a melody of flavors, featuring tender chicken marinated in a unique blend of spices and grilled to golden perfection",
+  "menu.item22.name": "Lemon Chicken",
+  "menu.item22.desc": "Dive into the flavors of our Chinese Lemon Chicken, a blend of crispy, golden chicken and a zesty, sweet lemon sauce. Each bite promises a burst of tangy warmth, showcasing the harmony of authentic Chinese culinary artistry."
 }

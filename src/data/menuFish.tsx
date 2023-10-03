@@ -1,6 +1,6 @@
 const menuFish = [
   {
-    id: "f1",
+    id: 10,
     name: "Salmon",
     description: "Fresh salmon with herbs",
     allergens: ["Fish", "Lemon"],
@@ -8,7 +8,7 @@ const menuFish = [
     photo: "salmon-photo-url",
   },
   {
-    id: "f2",
+    id: 11,
     name: "Haddock",
     description: "Fresh haddock with herbs",
     allergens: ["Fish", "Lemon"],

@@ -1,11 +1,17 @@
 import MenuItemCard from "../MenuItemCard/MenuItemCard";
 import menuBeef from "../../../data/menuBeef";
+import { useNavigate } from "react-router-dom";
+import { useIntl } from "react-intl";
 
 const Beef = () => {
+  const intl = useIntl();
+  const navigate = useNavigate();
+
   return (
     <div className="category">
-      <h2>Beef</h2>
-      {menuBeef.beef.map((item) => (
+      <button onClick={() => navigate(-1)}>Back to Menu</button>
+      <h2>{intl.formatMessage({ id: "menu.category.beef" })}</h2>
+      {menuBeef.map((item) => (
         <MenuItemCard
           key={item.name}
           item={{

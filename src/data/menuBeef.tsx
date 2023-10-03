@@ -1,6 +1,6 @@
 const menuBeef = [
   {
-    id: "b1",
+    id: 31,
     name: "Wagyu",
     description: "Fresh wagyu with herbs",
     allergens: ["Beef", "Lemon"],
@@ -8,7 +8,7 @@ const menuBeef = [
     photo: "wagyu-photo-url",
   },
   {
-    id: "b2",
+    id: 32,
     name: "Steak",
     description: "Fresh steak with herbs",
     allergens: ["Beef", "Lemon"],

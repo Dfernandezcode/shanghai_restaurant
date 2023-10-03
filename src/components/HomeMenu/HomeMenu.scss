@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 32px 64px;
+    height: 30vh;
+
+    &__wrapper {
+        font-size: 2rem;
+
+    }
+
+    &__link {
+        margin: 1rem 0;
+    }
+}

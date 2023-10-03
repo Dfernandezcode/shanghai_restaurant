@@ -1,8 +1,18 @@
+import React, { useState } from "react";
 import "./App.scss";
-import { useState } from "react";
-import { IntlProvider, useIntl } from "react-intl";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Menu from "./components/Menu/Menu";
+import { IntlProvider } from "react-intl";
 import en from "./translations/en.json";
 import id from "./translations/id.json";
+import Contact from "./components/Contact/Contact";
+import About from "./components/About/About";
+import Fish from "./components/Menu/Categories/Fish";
+import Beef from "./components/Menu/Categories/Beef";
+import Home from "./components/Home/Home";
+import Gallery from "./components/Gallery/Gallery";
+import Poultry from "./components/Menu/Categories/Poultry";
+import Footer from "./components/Footer/Footer";
 
 interface Messages {
   [key: string]: { [key: string]: string };
@@ -13,27 +23,32 @@ const messages: Messages = {
   id,
 };
 
-const InnerApp: React.FC = () => {
-  const intl = useIntl();
-
-  return <h1>{intl.formatMessage({ id: "hello.world" })}</h1>;
-};
-
 const App: React.FC = () => {
-  const [locale, setLocale] = useState("en");
+  const [currentLocale, setCurrentLocale] = useState("en");
+
+  const handleLocaleChange = (locale: string) => {
+    setCurrentLocale(locale);
+  };
 
   return (
-    <IntlProvider locale={locale} messages={messages[locale]}>
-      <div className="language__toggle">
-        <button className="language__toggle--btn" onClick={() => setLocale("en")}>
-          English
-        </button>
-        <button className="language__toggle--btn" onClick={() => setLocale("id")}>
-          Bahasa
-        </button>
-      </div>
-
-      <InnerApp />
+    <IntlProvider locale={currentLocale} messages={messages[currentLocale]}>
+      <main className="main">
+        <div className="routers">
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/menu" element={<Menu />} />
+              <Route path="/menu/fish" element={<Fish />} />
+              <Route path="/menu/poultry" element={<Poultry />} />
+              <Route path="/menu/beef" element={<Beef />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/contact" element={<Gallery />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
+        <Footer currentLocale={currentLocale} onLocaleChange={handleLocaleChange} />
+      </main>
     </IntlProvider>
   );
 };

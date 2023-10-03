@@ -1,0 +1,14 @@
+@import '../../scss/variables.scss';
+
+.language__toggle {
+    display: flex;
+
+    &--btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        width: 64px;
+    }
+
+}

@@ -1,0 +1,84 @@
+@import "../../../scss/variables.scss";
+
+.menu-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 560px;
+    width: 340px;
+    box-shadow: 3px 13px 12px -4px rgba(0, 0, 0, 0.32);
+    border-radius: 20px;
+    margin-top: 32px;
+
+    &__top {
+        position: relative;
+        top: 0;
+        height: 40%;
+        width: 340px;
+        margin: 0;
+        padding: 0;
+        border-radius: 20px 20px 0 0;
+
+        &--num {
+            position: relative;
+            top: 16px;
+            left: 16px;
+            color: $light-font;
+            background-color: $bg-btn-dark;
+            width: 4rem;
+            height: 2rem;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__bot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: $bg-card;
+        height: 60%;
+        border-radius: 0 0 20px 20px;
+        padding: 16px;
+
+        &--title {
+            font-size: 1.5rem;
+            text-align: left;
+            margin: 16px 0 0 0;
+            text-align: center;
+
+        }
+
+        &--price {
+            font-size: 1rem;
+            text-align: center;
+            margin: 32px 0;
+        }
+
+        &--allergen {
+            display: flex;
+            margin: 0 0 32px 0;
+
+        }
+
+        &--desc {
+            font-size: 1rem;
+            text-align: left;
+        }
+    }
+}
+
+.allergen-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-allergen;
+    margin: 0 16px;
+    width: 72px;
+    height: 24px;
+    border-radius: 20px;
+    font-size: 12px;
+}
