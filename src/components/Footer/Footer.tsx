@@ -1,5 +1,6 @@
 import React from "react";
 import LanguageToggle from "../LanguageToggle/LanguageToggle";
+import "./Footer.scss";
 
 interface FooterProps {
   currentLocale: string;

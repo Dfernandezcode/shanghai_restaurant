@@ -10,10 +10,10 @@ const LanguageToggle: React.FC<Props> = ({ currentLocale, onLocaleChange }) => {
   return (
     <div className="language__toggle">
       <button className="language__toggle--btn" onClick={() => onLocaleChange("en")} disabled={currentLocale === "en"}>
-        English
+        <img src="src\assets\images\language\united-kingdom-flag-icon.svg" />
       </button>
       <button className="language__toggle--btn" onClick={() => onLocaleChange("id")} disabled={currentLocale === "id"}>
-        Bahasa
+        <img src="src\assets\images\language\indonesia-flag-icon.svg" />
       </button>
     </div>
   );

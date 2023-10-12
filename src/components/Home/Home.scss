@@ -6,6 +6,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url("../../assets/images/covers/home-ricebowl.png");
+    background-position: right 70%;
+    background-repeat: no-repeat;
+    background-size: 50%;
 
     &__title-wrapper {
         display: flex;

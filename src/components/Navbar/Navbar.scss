@@ -2,19 +2,41 @@
 
 .navbar {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    background-color: $bg-nav;
-    width: 100vw;
     height: 50px;
-
+    margin: 16px 0 32px 0;
 
     &__wrapper {
         display: flex;
         gap: 1rem;
         text-decoration: none;
         list-style: none;
-        color: $light-font;
-        width: 60%;
+        color: $font-dark;
+    }
+
+    &__link {
+        position: relative;
+        text-decoration: none;
+        color: $font-dark;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            right: 0;
+            height: 2px;
+            width: 75%;
+            background: currentColor;
+            transform: scaleX(0);
+            transform-origin: bottom left;
+            transition: transform 0.3s ease-in-out;
+            transition-delay: 0.2s;
+        }
+
+        &:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
     }
 }

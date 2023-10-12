@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <div className="home__hours">
         <h2 className="home__subtitle">{intl.formatMessage({ id: "home.opening.hours" })}</h2>
-        <p className="home__time">10:00 - 22:00 everyday</p>
+        <p className="home__time">{intl.formatMessage({ id: "home.opening.times" })}</p>
       </div>
     </div>
   );
