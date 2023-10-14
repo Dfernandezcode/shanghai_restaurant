@@ -15,6 +15,7 @@ const Beef = () => {
         <MenuItemCard
           key={item.name}
           item={{
+            id: item.id,
             photo: item.photo,
             name: item.name,
             description: item.description,
