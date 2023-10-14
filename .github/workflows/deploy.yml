@@ -19,6 +19,9 @@ jobs:
           npm install
           npm run build
 
+      - name: List contents of the current directory
+        run: ls -al
+
       - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
@@ -26,4 +29,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: /public_html/
-          local-dir: build/
+          local-dir: dist/
