@@ -7,7 +7,7 @@ const Contact = () => {
       <Nav currentLocale={""} onLocaleChange={(_locale: string): void => {}} />
       <h1>Contact</h1>
       <div>
-        <h2>For Reservations:</h2>
+        <h2>For Reservations and orders:</h2>
         <p>Call 422 951</p>
         <p>or email us at: shanghaibpn@gmail.com</p>
       </div>
