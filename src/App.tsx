@@ -10,7 +10,6 @@ import About from "./components/About/About";
 import Fish from "./components/Menu/Categories/Fish";
 import Beef from "./components/Menu/Categories/Beef";
 import Home from "./components/Home/Home";
-import Gallery from "./components/Gallery/Gallery";
 import Poultry from "./components/Menu/Categories/Poultry";
 import Footer from "./components/Footer/Footer";
 
@@ -43,7 +42,6 @@ const App: React.FC = () => {
               <Route path="/menu/poultry" element={<Poultry />} />
               <Route path="/menu/beef" element={<Beef />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/contact" element={<Gallery />} />
             </Routes>
           </BrowserRouter>
         </div>
