@@ -22,9 +22,6 @@ const HomeMenu: React.FC<NavProps> = () => {
         <li className="home-menu__link">
           <Link to="/contact">{intl.formatMessage({ id: "nav.contact" })}</Link>
         </li>
-        <li className="home-menu__link">
-          <Link to="/gallery">{intl.formatMessage({ id: "nav.gallery" })}</Link>
-        </li>
       </ul>
     </div>
   );
