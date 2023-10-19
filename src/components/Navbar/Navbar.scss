@@ -9,7 +9,7 @@
 
     &__wrapper {
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
         text-decoration: none;
         list-style: none;
         color: $font-dark;
@@ -38,5 +38,12 @@
             transform: scaleX(1);
             transform-origin: bottom left;
         }
+    }
+
+    &__link--active {
+        text-decoration: underline;
+        text-underline-offset: 0.5rem;
+        color: $font-dark;
+        font-weight: bold;
     }
 }

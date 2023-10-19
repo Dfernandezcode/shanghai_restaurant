@@ -1,0 +1,26 @@
+@import "../../scss/variables.scss";
+@import "../../scss/font.scss";
+
+.about {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 32px 64px;
+    height: 30vh;
+
+    &__heading {
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: AlternateGothicNo2, sans-serif, 'Arial', sans-serif;
+        padding: 0 0 24px 0;
+        text-align: center;
+        width: 80%;
+    }
+
+    &__text {
+        font-size: 1rem;
+        margin: 2rem 1rem;
+    }
+}

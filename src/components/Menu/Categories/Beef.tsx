@@ -9,7 +9,9 @@ const Beef = () => {
 
   return (
     <div className="category">
-      <button onClick={() => navigate(-1)}>Back to Menu</button>
+      <button onClick={() => navigate(-1)} className="category__back-btn">
+        Back to Menu
+      </button>
       <h2>{intl.formatMessage({ id: "menu.category.beef" })}</h2>
       {menuBeef.map((item) => (
         <MenuItemCard
