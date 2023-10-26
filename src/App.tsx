@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Menu from "./components/Menu/Menu";
+import { motion } from "framer-motion";
 import { IntlProvider } from "react-intl";
+import Menu from "./components/Menu/Menu";
 import en from "./translations/en.json";
 import id from "./translations/id.json";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
-import Fish from "./components/Menu/Categories/Fish";
+import Seafood from "./components/Menu/Categories/Seafood";
 import Beef from "./components/Menu/Categories/Beef";
 import Home from "./components/Home/Home";
 import Poultry from "./components/Menu/Categories/Poultry";
@@ -31,14 +32,14 @@ const App: React.FC = () => {
 
   return (
     <IntlProvider locale={currentLocale} messages={messages[currentLocale]}>
-      <main className="main">
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 1 }} className="main">
         <div className="routers">
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/menu" element={<Menu />} />
-              <Route path="/menu/fish" element={<Fish />} />
+              <Route path="/menu/seafood" element={<Seafood />} />
               <Route path="/menu/poultry" element={<Poultry />} />
               <Route path="/menu/beef" element={<Beef />} />
               <Route path="/contact" element={<Contact />} />
@@ -46,7 +47,7 @@ const App: React.FC = () => {
           </BrowserRouter>
         </div>
         <Footer currentLocale={currentLocale} onLocaleChange={handleLocaleChange} />
-      </main>
+      </motion.div>
     </IntlProvider>
   );
 };

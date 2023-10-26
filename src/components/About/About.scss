@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 32px 64px;
+    margin: 32px 32px;
     height: 30vh;
 
     &__heading {
@@ -20,7 +20,7 @@
     }
 
     &__text {
-        font-size: 1rem;
+        font-size: 20px;
         margin: 2rem 1rem;
     }
 }

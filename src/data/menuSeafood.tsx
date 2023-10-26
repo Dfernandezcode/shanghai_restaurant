@@ -1,4 +1,4 @@
-const menuFish = [
+const menuSeafood = [
   {
     id: 10,
     name: "Salmon",
@@ -17,4 +17,4 @@ const menuFish = [
   },
 ];
 
-export default menuFish;
+export default menuSeafood;
