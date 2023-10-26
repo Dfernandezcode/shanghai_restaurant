@@ -9,6 +9,7 @@ const menuPoultry = [
   {
     id: 74,
     name: "Fried Chicken with Butter Sauce",
+    description: "Savor the rich and creamy butter sauce enveloping every piece of our crispy fried chicken. The luscious buttery flavors paired with the tender chicken creates an unforgettable experience.",
     allergens: ["Poultry", "Peanuts"],
     price: 50000,
     photo: butterChickenImg,
@@ -16,6 +17,7 @@ const menuPoultry = [
   {
     id: 75,
     name: "Fried Chicken with Dried Chilies",
+    description: "A spicy treat for the adventurous palate, our chicken is fried to perfection and tossed with fiery dried chilies. A burst of heat with every bite!",
     allergens: ["Poultry"],
     price: 40000,
     photo: chickenDriedChiliImg,
@@ -23,6 +25,7 @@ const menuPoultry = [
   {
     id: 76,
     name: "Sweet and Sour Chicken",
+    description: "Discover the perfect balance of tangy and sweet with our succulent chicken pieces, coated in a vibrant sweet and sour sauce. A classic favorite that never disappoints.",
     allergens: ["Poultry"],
     price: 40000,
     photo: sweetSourChickenImg,
@@ -30,6 +33,7 @@ const menuPoultry = [
   {
     id: 77,
     name: "Chicken sauteed with Cashew Nuts",
+    description: "Indulge in a delightful combination of crunchy cashews and tender chicken, sautéed to perfection in a savory sauce. A dish that promises both texture and taste.",
     allergens: ["Poultry", "Nuts"],
     price: 40000,
     photo: cashewChickenImg,
@@ -37,6 +41,7 @@ const menuPoultry = [
   {
     id: 78,
     name: "Chicken 'Rica-Rica'",
+    description: "For those seeking a spicy thrill, our 'Rica-Rica' chicken offers a tantalizing blend of spices and herbs, ensuring an explosion of flavors with each mouthful.",
     allergens: ["Poultry"],
     price: 40000,
     photo: ricaRicaChickenImg,
@@ -44,6 +49,7 @@ const menuPoultry = [
   {
     id: 79,
     name: "Nanjing style Fried Chicken",
+    description: "Experience a piece of Nanjing with our crispy fried chicken, seasoned with a mix of traditional spices and herbs, capturing the essence of this ancient city's culinary heritage.",
     allergens: ["Poultry"],
     price: 40000,
     photo: nankingChickenImg,
@@ -51,6 +57,7 @@ const menuPoultry = [
   {
     id: 80,
     name: "Steamed Ginger Chicken",
+    description: "Relish the gentle flavors of chicken steamed with aromatic ginger. A wholesome dish that's both light and bursting with natural goodness.",
     allergens: ["Poultry"],
     price: 40000,
     photo: gingerChickenImg,
