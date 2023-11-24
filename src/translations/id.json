@@ -8,9 +8,78 @@
   "home.opening.times": "Senin - Minggu: 10:00 - 22:00",
   "menu.title": "Menu Kami",
   "menu.item.price": "Harga",
+  "menu.category.drinks": "Minuman",
   "menu.category.seafood": "Makanan Laut",
   "menu.category.poultry": "Ayam",
   "menu.category.beef": "Sapi",
+  "menu.item1.name": "Jus Semangka",
+  "menu.item1.desc": "Sebuah campuran semangka yang menyegarkan, sempurna dingin untuk memberikan pelarian yang manis dan menyegarkan di hari yang cerah. Warna cerah dan rasa jusnya yang nikmat pasti akan menyegarkan indra Anda.",
+
+  "menu.item2.name": "Jus Alpukat",
+  "menu.item2.desc": "Jus alpukat yang kaya tekstur dan nutrisi, menawarkan rasa mentega yang halus dengan sedikit rasa manis. Sebuah makanan mewah untuk kenikmatan yang sadar kesehatan.",
+
+  "menu.item3.name": "Jus Sirsak",
+  "menu.item3.desc": "Jus sirsak eksotis, memamerkan kombinasi unik dari rasa asam dan manis. Kesegaran tropis ini adalah minuman yang sempurna dengan esensinya yang krim dan sitrus.",
+
+  "menu.item4.name": "Jus Melon",
+  "menu.item4.desc": "Nikmati rasa manis dan ringan dari jus melon segar. Keseimbangan sempurna dari rasa manis dan hidrasi, ideal untuk menghilangkan dahaga di hari yang hangat.",
+
+  "menu.item5.name": "Jus Buah Naga",
+  "menu.item5.desc": "Rasakan jus buah naga yang sangat cerah, penuh dengan antioksidan dan rasa manis yang lembut. Warna cerahnya yang memikat sama menariknya dengan rasanya.",
+
+  "menu.item6.name": "Jus Nanas",
+  "menu.item6.desc": "Jus nanas tropis, penuh dengan rasa manis dan asam yang berani. Favorit klasik yang membawa sepotong surga di setiap tegukan.",
+
+  "menu.item7.name": "Jus Mangga",
+  "menu.item7.desc": "Jus mangga yang lezat, kaya dan beludru, menawarkan rasa tropis yang cerah. Sempurna bagi mereka yang menyukai ledakan rasa manis dan buah yang segar.",
+
+  "menu.item8.name": "Jus Pepaya",
+  "menu.item8.desc": "Manjakan diri Anda dengan rasa manis dan halus dari jus pepaya, kesenangan tropis yang menyegarkan dan bergizi.",
+
+  "menu.item9.name": "Lemon Squash",
+  "menu.item9.desc": "Lemon squash yang segar dan menyegarkan, sempurna untuk menyegarkan indra Anda. Rasanya yang asam seimbang dengan jumlah kemanisan yang tepat.",
+
+  "menu.item10.name": "Orange Squash",
+  "menu.item10.desc": "Nikmati rasa orange squash yang cerah, campuran lezat dari jeruk yang matang, menawarkan pengalaman yang manis dan menyegarkan di setiap tegukan.",
+
+  "menu.item11.name": "Happy Soda",
+  "menu.item11.desc": "Sebuah campuran unik dan menyenangkan, Happy Soda mencampur soda tradisional dengan sentuhan rasa lokal, menciptakan minuman berkarbonasi yang menyenangkan dan menggembirakan mood Anda.",
+
+  "menu.item12.name": "Teh",
+  "menu.item12.desc": "Secangkir teh klasik dan menghibur, diseduh dengan sempurna. Pilih dari seleksi teh kami untuk menemukan momen ketenangan Anda.",
+
+  "menu.item13.name": "Jus Jeruk Manis",
+  "menu.item13.desc": "Jus jeruk manis yang diperas segar, penuh dengan kebaikan alami dan rasa jeruk yang cerah. Cara yang menyenangkan untuk memulai hari Anda atau menyegarkan sore Anda.",
+
+  "menu.item14.name": "Jus Jeruk Lemon",
+  "menu.item14.desc": "Campuran lezat dari jeruk lemon yang asam dan jeruk manis, jus ini menawarkan keseimbangan sempurna antara rasa asam dan manis, membuatnya menjadi pilihan yang menyegarkan.",
+  "menu.item15.name": "Teh Cina",
+  "menu.item15.desc": "Rasakan keanggunan halus dari teh Cina, yang dikenal dengan rasa halus dan infus aromatiknya. Pilihan yang tenang bagi para pecinta teh.",
+
+  "menu.item16.name": "Teh Basil Es",
+  "menu.item16.desc": "Segarkan diri Anda dengan teh basil es kami, campuran unik yang menggabungkan kesegaran es dengan catatan manis dan pedas dari basil. Sebuah fusi rasa yang sempurna.",
+
+  "menu.item17.name": "Teh Lemon Es",
+  "menu.item17.desc": "Tenangkan diri dengan teh lemon es kami, favorit klasik yang diinfus dengan rasa segar dan asam dari lemon segar, seimbang dengan rasa manisnya.",
+
+  "menu.item18.name": "Coca-Cola",
+  "menu.item18.desc": "Nikmati Coca-Cola terkenal di dunia, minuman abadi yang disukai karena rasa unik dan pengalaman menyegarkannya. Sempurna untuk setiap kesempatan.",
+
+  "menu.item19.name": "Sprite",
+  "menu.item19.desc": "Sprite, soda lemon-lime yang jernih, menawarkan rasa yang segar dan renyah, pelarian yang menyenangkan dari kebiasaan.",
+
+  "menu.item20.name": "Fanta",
+  "menu.item20.desc": "Terjun ke dunia buah Fanta, yang dikenal dengan pesonanya yang berbuih dan berbagai rasa yang menyenangkan. Pilihan soda yang cerah dan menyenangkan.",
+
+  "menu.item21.name": "Green Sands",
+  "menu.item21.desc": "Green Sands, minuman non-alkohol yang menarik, menawarkan rasa yang unik dan menyegarkan yang menonjol dengan nuansa herbalnya yang halus.",
+
+  "menu.item22.name": "Air Soda",
+  "menu.item22.desc": "Air Soda, pilihan yang sederhana namun serbaguna, sempurna untuk minuman menyegarkan sendiri atau sebagai mixer untuk koktail favorit Anda.",
+
+  "menu.item23.name": "Air Mineral",
+  "menu.item23.desc": "Murni dan sederhana, Air Mineral kami bersumber dari mata air alami, menawarkan rasa yang segar dan bersih untuk menghilangkan dahaga Anda.",
+
   "menu.item74.name": "Ayam Goreng dengan Saus Mentega",
   "menu.item74.desc": "Nikmati saus mentega yang kaya dan krimi yang melapisi setiap potong ayam goreng kami. Perpaduan rasa mentega yang lezat dengan ayam yang empuk menciptakan pengalaman yang tak terlupakan.",
   "menu.item75.name": "Ayam Goreng dengan Cabai Kering",

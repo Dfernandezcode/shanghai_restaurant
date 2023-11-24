@@ -4,7 +4,14 @@ import sweetSourChickenImg from "../assets/images/poultry/76-sweetSourChicken.jp
 import cashewChickenImg from "../assets/images/poultry/77-cashewChicken.jpg";
 import ricaRicaChickenImg from "../assets/images/poultry/78-ricaRicaChicken.jpg";
 import nankingChickenImg from "../assets/images/poultry/79-nankingChicken.jpg";
-import gingerChickenImg from "../assets/images/poultry/80-gingerChicken.jpg";
+import steamedGingerChickenImg from "../assets/images/poultry/80-gingerChicken.jpg";
+import lemonChickenImg from "../assets/images/poultry/81-lemonChicken.jpg";
+import shanghaiChickenImg from "../assets/images/poultry/82-shanghaiChicken.jpg";
+import cantoneseChickenImg from "../assets/images/poultry/83-cantoneseChicken.jpg";
+import friedMushroomChickenImg from "../assets/images/poultry/84-friedMushroomChicken.jpg";
+import friedChickenSaltedEggImg from "../assets/images/poultry/85-friedChickenSaltedEgg.jpg";
+import hotChiliChickenImg from "../assets/images/poultry/86-hotChiliChicken.jpg";
+
 const menuPoultry = [
   {
     id: 74,
@@ -60,7 +67,7 @@ const menuPoultry = [
     description: "Relish the gentle flavors of chicken steamed with aromatic ginger. A wholesome dish that's both light and bursting with natural goodness.",
     allergens: ["Poultry"],
     price: 40000,
-    photo: gingerChickenImg,
+    photo: steamedGingerChickenImg,
   },
   {
     id: 81,
@@ -68,7 +75,7 @@ const menuPoultry = [
     description: "A symphony of zesty lemon and tender chicken, our Lemon Chicken is a refreshing blend of tangy citrus flavors complemented by the succulence of perfectly cooked chicken.",
     allergens: ["Poultry", "Lemon"],
     price: 40000,
-    photo: butterChickenImg,
+    photo: lemonChickenImg,
   },
   {
     id: 82,
@@ -76,39 +83,39 @@ const menuPoultry = [
     description: "Transport your senses to the bustling streets of Shanghai with our crispy fried chicken, seasoned with a secret blend of spices unique to the region.",
     allergens: ["Poultry"],
     price: 40000,
-    photo: butterChickenImg,
+    photo: shanghaiChickenImg,
   },
   {
     id: 83,
     name: "Cantonese Chicken",
-    description: "Experience Cantonese culinary excellence with our signature chicken dish, slow-cooked to perfection, and flavored with the finest ingredients from Southern China.",
+    description: "Experience Cantonese culinary excellence with our signature chicken dish, featuring tender chicken pieces simmered in a flavorful Cantonese-style sauce. This dish highlights the subtle yet complex flavors characteristic of traditional Cantonese cooking.",
     allergens: ["Poultry"],
-    price: 40000,
-    photo: butterChickenImg,
+    price: 45000,
+    photo: cantoneseChickenImg,
   },
   {
     id: 84,
-    name: "Fried Chicken with Black Mushrooms",
-    description: "Dive into a culinary delight as earthy black mushrooms meet crispy fried chicken, creating a symphony of textures and flavors that's both rich and comforting.",
+    name: "Fried Chicken with Mushrooms",
+    description: "Enjoy the earthy flavors of mushrooms combined with crispy fried chicken, creating a dish that's both hearty and satisfying.",
     allergens: ["Poultry"],
-    price: 40000,
-    photo: butterChickenImg,
+    price: 45000,
+    photo: friedMushroomChickenImg,
   },
   {
     id: 85,
-    name: "Fried Chicken and Salted Egg",
-    description: "A unique fusion of crispy chicken and savory salted egg, this dish is a testament to the wonders of culinary innovation. Every bite is a delightful surprise.",
-    allergens: ["Poultry"],
-    price: 40000,
-    photo: butterChickenImg,
+    name: "Fried Chicken with Salted Egg",
+    description: "Savor the unique taste of salted egg yolk coating our crispy chicken, a delightful fusion of savory and rich flavors.",
+    allergens: ["Poultry", "Eggs"],
+    price: 50000,
+    photo: friedChickenSaltedEggImg,
   },
   {
     id: 86,
-    name: "Hot Chili Sauce Chicken",
-    description: "For lovers of heat, our chicken bathed in hot chili sauce offers a fiery delight, ensuring a sizzling sensation that's both spicy and scrumptious.",
+    name: "Spicy Hot Chili Chicken",
+    description: "For those who love heat, our hot chili chicken is a fiery delight, featuring tender chicken enveloped in a bold and spicy sauce.",
     allergens: ["Poultry"],
-    price: 40000,
-    photo: butterChickenImg,
+    price: 45000,
+    photo: hotChiliChickenImg,
   },
 ];
 

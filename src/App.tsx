@@ -13,6 +13,7 @@ import Beef from "./components/Menu/Categories/Beef";
 import Home from "./components/Home/Home";
 import Poultry from "./components/Menu/Categories/Poultry";
 import Footer from "./components/Footer/Footer";
+import Drinks from "./components/Menu/Categories/Drinks";
 
 interface Messages {
   [key: string]: { [key: string]: string };
@@ -39,6 +40,7 @@ const App: React.FC = () => {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/menu" element={<Menu />} />
+              <Route path="/menu/drinks" element={<Drinks />} />
               <Route path="/menu/seafood" element={<Seafood />} />
               <Route path="/menu/poultry" element={<Poultry />} />
               <Route path="/menu/beef" element={<Beef />} />

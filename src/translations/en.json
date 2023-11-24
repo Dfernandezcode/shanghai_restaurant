@@ -8,9 +8,79 @@
   "home.opening.times": "Monday - Friday: 10am - 10pm",
   "menu.title": "Our Menu",
   "menu.item.price": "Price",
+  "menu.category.drinks": "Drinks",
   "menu.category.seafood": "Seafood",
   "menu.category.poultry": "Chicken",
   "menu.category.beef": "Beef",
+  "menu.item1.name": "Watermelon Juice",
+  "menu.item1.desc": "A refreshing blend of ripe watermelons, perfectly chilled to offer a sweet, hydrating escape on a sunny day. Its vibrant color and juicy flavor are sure to invigorate your senses.",
+
+  "menu.item2.name": "Avocado Juice",
+  "menu.item2.desc": "Creamy avocado juice, rich in texture and nutrients, offering a smooth, buttery taste with a hint of sweetness. A luxurious treat for health-conscious indulgence.",
+
+  "menu.item3.name": "Soursop Juice",
+  "menu.item3.desc": "Exotic soursop juice, boasting a unique combination of tangy and sweet flavors. This tropical delight is a perfect refresher with its creamy, citrusy essence.",
+
+  "menu.item4.name": "Melon Juice",
+  "menu.item4.desc": "Delight in the light and sweet taste of fresh melon juice. A perfect balance of sweetness and hydration, ideal for quenching your thirst on warm days.",
+
+  "menu.item5.name": "Dragon Fruit Juice",
+  "menu.item5.desc": "Experience the strikingly vibrant dragon fruit juice, packed with antioxidants and a mildly sweet taste. Its visually stunning hue is as enticing as its flavor.",
+
+  "menu.item6.name": "Pineapple Juice",
+  "menu.item6.desc": "Tropical pineapple juice, bursting with a bold, tangy sweetness. A classic favorite that brings a slice of paradise with every sip.",
+
+  "menu.item7.name": "Mango Juice",
+  "menu.item7.desc": "Succulent mango juice, rich and velvety, offering a vibrant tropical taste. Perfect for those who love a sweet, fruity burst of flavor.",
+
+  "menu.item8.name": "Papaya Juice",
+  "menu.item8.desc": "Indulge in the smooth, sweet flavor of papaya juice, a tropical delight that's both refreshing and nutritious.",
+
+  "menu.item9.name": "Lemon Squash",
+  "menu.item9.desc": "A zesty and refreshing lemon squash, perfect for revitalizing your senses. Its tangy flavor is balanced with just the right amount of sweetness.",
+
+  "menu.item10.name": "Orange Squash",
+  "menu.item10.desc": "Enjoy the vibrant taste of orange squash, a delightful blend of ripe oranges, offering a sweet and refreshing experience with every sip.",
+
+  "menu.item11.name": "Happy Soda",
+  "menu.item11.desc": "A unique and playful concoction, Happy Soda mixes traditional soda with a twist of local flavors, creating a fun and fizzy drink to uplift your mood.",
+
+  "menu.item12.name": "Tea",
+  "menu.item12.desc": "A classic and comforting cup of tea, brewed to perfection. Choose from our selection of fine teas to find your moment of tranquility.",
+
+  "menu.item13.name": "Sweet Orange Juice",
+  "menu.item13.desc": "Freshly squeezed sweet orange juice, full of natural goodness and vibrant citrus flavors. A delightful way to start your day or refresh your afternoon.",
+
+  "menu.item14.name": "Lemon Orange Juice",
+  "menu.item14.desc": "A delightful blend of tangy lemon and sweet orange, this juice offers a perfect balance of sour and sweet, making it an invigorating choice.",
+
+  "menu.item15.name": "Chinese Tea",
+  "menu.item15.desc": "Experience the subtle elegance of Chinese tea, known for its delicate flavors and aromatic infusion. A serene choice for tea connoisseurs.",
+
+  "menu.item16.name": "Ice Basil Tea",
+  "menu.item16.desc": "Refresh yourself with our ice basil tea, a unique blend that combines the coolness of ice with the sweet, peppery notes of basil. A perfect fusion of flavors.",
+
+  "menu.item17.name": "Ice Lemon Tea",
+  "menu.item17.desc": "Cool down with our ice lemon tea, a classic favorite infused with the crisp, tart flavor of fresh lemons, balanced with a sweet undertone.",
+
+  "menu.item18.name": "Coca-Cola",
+  "menu.item18.desc": "Enjoy the world-famous Coca-Cola, a timeless beverage loved for its unique taste and refreshing experience. Perfect for any occasion.",
+
+  "menu.item19.name": "Sprite",
+  "menu.item19.desc": "Sprite, the clear, lemon-lime soda, offers a crisp, refreshing taste that's a delightful escape from the ordinary.",
+
+  "menu.item20.name": "Fanta",
+  "menu.item20.desc": "Dive into the fruity world of Fanta, known for its bubbly charm and a variety of fun flavors. A vibrant and playful soda choice.",
+
+  "menu.item21.name": "Green Sands",
+  "menu.item21.desc": "Green Sands, an intriguing non-alcoholic beverage, offers a unique and refreshing taste that stands out with its subtle, herbal undertones.",
+
+  "menu.item22.name": "Soda Water",
+  "menu.item22.desc": "Soda Water, the simple yet versatile choice, perfect for a refreshing drink on its own or as a mixer for your favorite cocktail.",
+
+  "menu.item23.name": "Mineral Water",
+  "menu.item23.desc": "Pure and simple, our Mineral Water is sourced from natural springs, offering a crisp and clean taste to quench your thirst.",
+
   "menu.item74.name": "Fried Chicken with Butter Sauce",
   "menu.item74.desc": "Savor the rich and creamy butter sauce enveloping every piece of our crispy fried chicken. The luscious buttery flavors paired with the tender chicken creates an unforgettable experience.",
   "menu.item75.name": "Fried Chicken with Dried Chilies",
