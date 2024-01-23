@@ -22,6 +22,7 @@ import greenSandsImg from "../assets/images/drinks/21-greenSands.webp";
 import sodaWaterImg from "../assets/images/drinks/22-sodaWater.webp";
 import mineralWaterImg from "../assets/images/drinks/23-mineralWater.webp";
 
+// Menu items 1-23
 const menuDrinks = [
   {
     id: 1,

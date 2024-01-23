@@ -11,10 +11,10 @@ const Menu = () => {
   const intl = useIntl();
 
   const categoryImages = {
-    soups: soupsImage,
-    fruits: fruitsImage,
+    // soups: soupsImage,
+    // fruits: fruitsImage,
     drinks: drinksImage,
-    vegetables: vegtablesImage,
+    // vegetables: vegtablesImage,
     seafood: seafoodImage,
     poultry: poultryImage,
     beef: beefImage,

@@ -1,6 +1,8 @@
+// Menu Items 65-70
+
 const menuBeef = [
   {
-    id: 31,
+    id: 56,
     name: "Wagyu",
     description: "Fresh wagyu with herbs",
     allergens: ["Beef", "Lemon"],
@@ -8,7 +10,7 @@ const menuBeef = [
     photo: "wagyu-photo-url",
   },
   {
-    id: 32,
+    id: 57,
     name: "Steak",
     description: "Fresh steak with herbs",
     allergens: ["Beef", "Lemon"],
